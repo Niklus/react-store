@@ -15,12 +15,6 @@ export default function Product(props) {
 
   return (
     <div className="product">
-      <img
-        width="50"
-        src={details.image}
-        alt={details.description}
-        title={details.description}
-      />
       <div className="product-info">
         <h2>{details.name}</h2>
         <p>{details.description}</p>

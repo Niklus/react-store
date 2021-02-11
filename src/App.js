@@ -6,6 +6,7 @@ function App() {
   if (loggedIn) {
     return (
       <>
+        <h1>Admin Panel</h1>
         <StoreFront />
         <button className="btn btn-outline" onClick={() => setLoggedIn(false)}>
           Logout
